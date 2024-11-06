@@ -22,7 +22,7 @@ body {
     height: 160px;
     position: relative;
 
-    background-color: rgb(251, 51, 51);
+    background-color: rgb(209, 35, 209);
 
     transform-origin: right bottom;
 
@@ -41,10 +41,40 @@ body {
         border-top-left-radius: 50px;
         border-top-right-radius: 50px;
     }
-    100%{
-
+    55%{
+        transform: rotate(45deg) scale(1);
     }
-}
+    60%{
+        transform: rotate(45deg) scale(1.2);
+    }
+    65%{
+        transform: rotate(45deg) scale(1);
+    }
+    70%{
+        transform: rotate(45deg) scale(1.2);
+    }
+    75%{
+        transform: rotate(45deg) scale(1);
+    }
+    80%{
+        transform: rotate(45deg) scale(1.2);
+    }
+    85%{
+        transform: rotate(45deg) scale(1);
+    }
+    90%{
+        transform: rotate(45deg) scale(1.2);
+    }
+    95%{
+        transform: rotate(45deg) scale(1);
+    }
+    100%{
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        transform: rotate(45deg) scale(1.2);
+    }
+ }
+
 
 /*
 .heart:hover {
@@ -65,7 +95,7 @@ body {
 
     transform-origin: left bottom;
 
-    background-color: rgb(185, 4, 4);
+    background-color: rgb(121, 9, 121);
 
     position: absolute;
     /* transition: .5s ease; */
@@ -82,7 +112,9 @@ body {
         border-top-right-radius: 50px;
     }
     100%{
-
+        transform: rotate(-90deg) translateY(100px);
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
     }
 }
 
