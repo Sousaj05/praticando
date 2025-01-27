@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: teal;
+    background-color:darkcyan;
 }
 
 main {
@@ -21,7 +21,7 @@ canvas {
     background-color: #fff;
     cursor: pointer;
     margin: 20px auto;
-    border-radius: 5px;
+    border-radius: 6px;
 }
 
 .buttons {
